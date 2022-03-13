@@ -32,6 +32,7 @@ GoogleGeoService::nearGooglePlaces($latitude='', $longitude='',$category='',$lan
 - save response places in local database 
 - in next time check first if places exists in local databse use it else if that new area run the service and save places in database to use it next time
 
+## Usage
 - directDistance
 - To get direct line between two points not 'road or way' but 'direct line'
 - distance return in KM
