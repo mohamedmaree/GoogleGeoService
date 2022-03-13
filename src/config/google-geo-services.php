@@ -9,5 +9,6 @@ return [
     |
     */
 
-    "google_key" => "",
+    "google_key" => "",//from google map api
+    "currencyconverterapi" => "" //from http://currencyconverterapi.com
 ];
