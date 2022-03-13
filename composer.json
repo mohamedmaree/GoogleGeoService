@@ -1,0 +1,26 @@
+{
+    "name": "maree/google-geo-services",
+    "description": "get google places ,cities,address,path, distance and currency converter by google api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mohamed maree",
+            "email": "m7mdmaree26@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "maree\\googleGeoServices\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "maree\\googleGeoServices\\googleGeoServiceProvider"
+            ]
+        }
+    } 
+}

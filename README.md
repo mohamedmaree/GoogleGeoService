@@ -1,4 +1,4 @@
-# sms
+# google-geo-services
 ## Installation
 
 You can install the package via [Composer](https://getcomposer.org).
