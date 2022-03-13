@@ -27,7 +27,7 @@ GoogleGeoService::nearGooglePlaces($latitude='', $longitude='',$category='',$lan
 
 ```
 - note : you can get next page of array of places by pass the value of 'next_page_token' return in response.
-- note : that api cost alot of money from google places api so that if you return the same places or area every time
+- note : that api cost much money from google places api so that if you return the same places or area every time
 - run that service
 - save response places in local database 
 - in next time check first if places exists in local database use it else if that new area run the service and save places in database to use it next time
