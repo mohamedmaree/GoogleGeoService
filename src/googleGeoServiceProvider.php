@@ -13,7 +13,9 @@ class googleGeoServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->publishes([
+            __DIR__.'/config/google-geo-services.php' => config_path('google-geo-services.php'),
+        ],'google-geo-services');
     }
 
     /**
@@ -23,6 +25,8 @@ class googleGeoServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->mergeConfigFrom(
+            __DIR__.'/config/google-geo-services.php', 'google-geo-services'
+        );
     }
 }
